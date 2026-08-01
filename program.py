@@ -115,7 +115,7 @@ o = s2.count("o")
 u = s2.count("u")
 print(f"no of vowels={a+e+i+o+u}")'''
 #marks calculation
-math=int(input("give math marks:"))
+'''math=int(input("give math marks:"))
 sci=int(input("give sci marks:"))
 eng=int(input("give eng marks:"))
 sum=math+sci+eng
@@ -134,6 +134,10 @@ elif grade <= 80 and grade > 70:
 else :
     print(f"grade:F")
 
+'''
+n=input("enter your name:")
+a=int(input("enter your age:"))
+print(f"name:{n} and age:{a}")
 
 
 
