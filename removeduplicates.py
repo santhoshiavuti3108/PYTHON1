@@ -9,7 +9,7 @@ numbers=list(map(int,input("enter the values with spaces:").split()))
 unique = []
 for i in numbers:
     if i not in unique:
-        unique.append(i)
+        unique.append(i) # append adds unique element
 print("list after removing duplicates:",unique)
 
 
