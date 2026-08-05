@@ -1,0 +1,18 @@
+#read/write data
+# writing data in a file
+#open a file
+file=open("data.txt","w")
+file.write("this is the new file the topic is about python programig.\n")
+file.write("iam santhoshi student of mahaveer clg.\n")
+file.close()
+
+#reading a file
+file=open("data.txt","r")
+content = file.read()
+file.close()
+
+#print the file content
+print(f"file content:{content}")
+
+# r = opens file in read mode
+# w = opens file in write mode

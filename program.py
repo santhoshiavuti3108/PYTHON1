@@ -78,16 +78,7 @@ print(f"name:{x},age:{y}years")'''
 '''radius=int(input("give radius:"))
 a=3.14*radius*radius
 print(f"area of circle:{a}")'''
-#quadratic equation
-'''a=float(input("give a value:"))
-b=float(input("give b value:"))
-c=float(input("give c value:"))
-d=b**2-4*a*c
 
-root1=-b+(d*0.5)/2*a
-root2=-b-(d*0.5)/2*a
-
-print(f"root1={root1},root2={root2}")'''
 #if else statments
 '''w=input()
 if w=="sunny":
@@ -103,19 +94,9 @@ print("code ended here!")
 print(str)
 print(str[-2])
 print(str[2:])
-
 '''
-#vowel counter
-'''s=input("give input:")
-s2=s.lower()
-a = s2.count("a")
-e = s2.count("e")
-i = s2.count("i")
-o = s2.count("o")
-u = s2.count("u")
-print(f"no of vowels={a+e+i+o+u}")'''
 #marks calculation
-'''math=int(input("give math marks:"))
+math=int(input("give math marks:"))
 sci=int(input("give sci marks:"))
 eng=int(input("give eng marks:"))
 sum=math+sci+eng
