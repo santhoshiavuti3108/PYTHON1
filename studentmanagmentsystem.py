@@ -1,5 +1,6 @@
 # student mangment system
 #create a class
+#class = student & object = student
 class Student:
 # define init() - it is called whenever an object is created
 # it stores student data
